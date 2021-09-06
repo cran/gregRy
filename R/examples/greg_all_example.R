@@ -1,0 +1,30 @@
+#create plot data
+planet_plot_data <- data.frame(plot_number = 1:20,
+                               planet = c(rep("Kashyyyk", 5),
+                                          rep("Forest Moon of Endor", 5),
+                                          rep("Dagobah", 5),
+                                          rep("Naboo", 5)),
+                               count_of_trees = c(204, 156, 240, 286, 263,
+                                                  112, 167, 131, 25, 145,
+                                                  141, 65, 127, 15, 98,
+                                                  100, 12, 49, 94, 69),
+                               forest_cover = c(85, 74, 89, 95, 92,
+                                                70, 73, 69, 11, 68,
+                                                67, 30, 62, 15, 42,
+                                                59, 5, 17, 25, 22))
+
+#create mean data
+planet_means <- data.frame(planet = c("Kashyyyk",
+                                      "Forest Moon of Endor",
+                                      "Dagobah",
+                                      "Naboo"),
+                           forest_cover = c(95,
+                                            85,
+                                            50,
+                                            30))
+
+x1 <- greg_all(plot_df = planet_plot_data,
+               estimation = "planet",
+               pixel_estimation_means = planet_means,
+               formula = count_of_trees ~ forest_cover)
+x1

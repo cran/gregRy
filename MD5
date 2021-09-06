@@ -1,0 +1,15 @@
+35d0db64eb9d1de750f7d412a996ff62 *DESCRIPTION
+7e2fa261a13ba836267189e04a2ed8b1 *LICENSE
+d9f003720d100a38a1e41131ead24799 *NAMESPACE
+e009dc90b9e636c2691f34b0728a717f *NEWS.md
+bed0c0a20a9f9b163ccf53692c25cadc *R/aaa.R
+eab190cf2edc7f2b7ea3b03095c9098e *R/examples/greg_all_example.R
+c61850051feed72e8ffe67fc67ba327e *R/examples/gregory_all_example.R
+38c0e5134cb55e8a82b9b4961bc59ffb *R/global.R
+114b2628c1e2caedcb1d81b593525dcf *R/greg_all.R
+c2f19638d6e582ebe147aa2b266a243a *R/gregory_all.R
+c9e05eff4138b80fe556f7821b3dbdb4 *README.md
+67586b67d9c76a6f1373faf0f21e5d86 *man/figures/README-unnamed-chunk-11-1.png
+e8f66a5a6e27554c206d3e42614fe0a3 *man/figures/README-unnamed-chunk-9-1.png
+5a518a4b45e3927c1d7b48ce9584db26 *man/greg_all.Rd
+625697d1b10ccfb09113c07e239983a7 *man/gregory_all.Rd
